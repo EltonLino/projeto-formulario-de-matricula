@@ -13,5 +13,64 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <main>
+        <main class="container-main">
+          <div class="back">
+            <img src="assets/icons/arrow-left-02.svg" alt="icone de voltar">
+            <span>Voltar</span>
+          </div>
+          <div class="cabecalho">
+            <h2>Formulário de matrícula</h2>
+            <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+          </div>
+          <form action="#">
+            <fieldset>
+              <legend>Informações da criança</legend>
+
+              <div class="input-wrapper">
+                <label for="fullname">Nome Completo</label>
+                <input type="text" name="fullname" id="fullname">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="birth">Data de nascimento</label>
+                <input type="date" name="birth" id="birth">
+              </div>
+
+              <div class="select-wrapper">
+                <label for="sexo">Sexo</label>
+                <select name="sexo" id="sexo">
+                  <option value="female">Feminino</option>
+                  <option value="male">Masculino</option>
+                </select>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informações médicas</label>
+                <textarea name="medical-info" id="medical-info" placeholder="Informe se a criança tem alguma restrição médica, alergia etc.."></textarea>
+              </div>
+
+              <div class="input-file-wrapper">
+                <label for="birth-file">Certidão de nascimento</label>
+                <input type="file" name="birth-file" id="birth-file">
+                <img src="assets/icons/cloud-upload.svg" alt="Icone de upload">
+              </div>
+            </fieldset>
+          </form>
+        </main>
+      </main>
+      <aside>
+        <aside class="container-aside">
+          <div class="principal">
+            <img src="assets/logo.svg" alt="Logo estrelas do amanhã">
+            <h1>Porque cada momento de <span>aprendizado</span> conta</h1>
+            <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+          </div>
+          <div class="ilustration"><img src="assets/Illustration.svg" alt="ilustação de uma professora ensinado crianças"></div>
+        </aside>
+      </aside>
+    </div>
+  </body>
 </html>
