@@ -8,6 +8,7 @@ fieldset{
     display: grid;
     border: none;
     gap: 1.5rem;
+    margin-block: 3rem;
 }
 
 legend{
@@ -16,6 +17,5 @@ legend{
     margin-bottom: 1.5rem;
 }
 
-fieldset + fieldset {
-    margin-top: 3rem;
-}
+
+
