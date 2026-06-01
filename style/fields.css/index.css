@@ -48,5 +48,14 @@ input[type = "date"] {
 
 select{
     background: url(../../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
+}
 
+div .flex{
+    gap: 1.25rem;
+}
+
+input:disabled{
+    background-color: var(--surface-disabled);
+    opacity: 50%;
+    border: 1px solid var(--stroke-default);
 }
